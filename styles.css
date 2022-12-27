@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root {
+    --darkCyan: hsl(185, 75%, 39%);
+    --veryDarkDesaturatedBlue: hsl(229, 23%, 23%);
+    --darkGrayishBlue: hsl(227, 10%, 46%);
+    --darkGray: hsl(0, 0%, 59%);
+    --white: hsl(0, 0%, 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: var(--darkCyan);
+}
+
+.card {
+    min-width: 375px;
+    width: 30%;
+    margin: 0 auto;
+    background-color: var(--white);
+    border-radius: 8px;
+}
+
+.bgPattern {
+    width: 100%;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.icon img {
+    border-radius: 30px;
+    display: flex;
+    position: relative;
+    bottom: 30px;
+    margin: auto;
+}
+
+.icon {
+    text-align: center;  
+}
+
+.bio {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.age,.city {
+    color: var(--darkGray);
+}
+
+hr {
+    background-color: var(--darkGray);
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    margin: 20px;
+}
+
+.subText {
+    color: var(--darkGray);
+}
